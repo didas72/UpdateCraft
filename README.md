@@ -12,7 +12,7 @@ This tool relies on the Modrinth API to work. Visit the official Modrinth [site]
 ## Installation
 
 1) Download the latest release [here](https://github.com/didas72/UpdateCraft/releases/latest)
-2) Save the file `UpdateCraft.py` to a location of your choosing (you can keep it in the Downloads if you desire)
+2) Save the files under `src/` to a location of your choosing (you can keep it in the Downloads if you desire)
 
 ## Usage
 
@@ -23,15 +23,15 @@ This tool relies on the Modrinth API to work. Visit the official Modrinth [site]
 
 ## Known issues
 
-- Does not handle reaching the API rate limit
+None at the moment. Please feel free to report any problems you may find.
 
 ## Roadmap
 
-v1.0.1 - Add missing handling for reaching of API rate limit
 v1.1.0 - Automatic dependency check
 v1.2.0 - Graphical interface
 v1.3.0 - Support for other mod loaders
 
 ## Change log
 
+v1.0.1 - Added handling for a variety of errors, better status messages and rudimentary debug mode
 v1.0.0 - Initial release. CLI only version
