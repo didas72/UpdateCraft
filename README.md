@@ -27,11 +27,11 @@ None at the moment. Please feel free to report any problems you may find.
 
 ## Roadmap
 
-v1.1.0 - Automatic dependency check
-v1.2.0 - Graphical interface
-v1.3.0 - Support for other mod loaders
+v1.1.0 - Automatic dependency check  
+v1.2.0 - Graphical interface  
+v1.3.0 - Support for other mod loaders  
 
 ## Change log
 
-v1.0.1 - Added handling for a variety of errors, better status messages and rudimentary debug mode
-v1.0.0 - Initial release. CLI only version
+v1.0.1 - Added handling for a variety of errors, better status messages and rudimentary debug mode  
+v1.0.0 - Initial release. CLI only version  
