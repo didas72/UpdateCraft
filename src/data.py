@@ -2,6 +2,8 @@ class ModData:
 	local_name: str
 	local_version: str
 	local_loader: str
+	local_license: str
+	local_authors: list[str]
 	title: str
 	slug: str
 	compatible_game_versions: set[str]
@@ -11,10 +13,12 @@ class ModData:
 	chosen_url: str
 	highest_game_version: str
 
-	def __init__(self, name: str, version: str, loader: str):
+	def __init__(self, name: str, version: str, loader: str, license_name: str, authors: list[str]):
 		self.local_name = name
 		self.local_version = version
 		self.local_loader = loader
+		self.local_license = license_name
+		self.local_authors = authors
 		self.title = ""
 		self.slug = ""
 		self.compatible_game_versions = set()
